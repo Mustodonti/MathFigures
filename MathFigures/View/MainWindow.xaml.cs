@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MathFigures.ViewModel;
 
 namespace MathFigures
 {
@@ -23,6 +24,7 @@ namespace MathFigures
         public MainWindow()
         {
             InitializeComponent();
+            //DataContext = new MainWindowViewModel(this);
         }
     }
 }
